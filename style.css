@@ -1,0 +1,731 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* This is header area section start */
+.hero-and-menubar {
+    height: 645px;
+    background: khaki;
+}
+
+header {
+    height: 65px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+
+
+
+    /* background-color: lightgray; */
+}
+
+.head-color {
+    transition: all 0.4s ease;
+    background-color: #fff;
+
+}
+
+.menu-and-logo {
+    padding: 20px 0px;
+}
+
+.menubar-area span {
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+
+
+}
+
+/* This is hero section start */
+.custom-margin {
+    margin-top: 120px;
+}
+
+.hero-left h3 {
+    font-size: 34px;
+    line-height: 24px;
+    font-weight: 500;
+
+}
+
+.dynamic-text-con {
+    max-width: 650px;
+    padding: 5px 0px;
+    /* background-color: rebeccapurple; */
+
+}
+
+.dynamic-text-con span {
+    font-size: 90px;
+    line-height: 134px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #212529;
+
+}
+
+.hero-left address {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: px 0px;
+    margin-bottom: 65px;
+}
+
+.hero-left .view-btn {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+    width: 250px;
+    padding: 20px 55px;
+    cursor: pointer;
+    background-color: black;
+
+    text-decoration: none;
+}
+
+.hero-left .contact-me {
+    margin-left: 35px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    word-spacing: 3px;
+    color: rgb(27, 25, 25);
+}
+
+.hero-left .contact-me:hover {
+    text-decoration: none;
+    color: black;
+    font-size: 600;
+}
+
+.hero-right img {
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    border: 15px solid #fff;
+    margin-top: 25px;
+}
+
+/* This is hero section end */
+
+/* This is header area section end */
+
+/* This is section head start */
+.section-head {
+    text-align: center;
+    padding: 105px 0px 25px 0px;
+}
+
+.section-head p {
+    width: 110px;
+    padding: 5px;
+    text-align: center;
+    background-color: khaki;
+    font-size: 18px;
+    line-height: 15px;
+    font-weight: 600;
+}
+
+.section-head h1 {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #212529;
+}
+
+/* This is section head end */
+
+/* This is about us section start */
+.about-left h3 {
+    font-size: 34px;
+    line-height: 28px;
+    font-weight: 500;
+    padding: 15px 0px;
+}
+
+.about-left h3 span {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    border-bottom: 3px solid khaki;
+}
+
+.about-left p {
+    width: 94%;
+    font-size: 22px;
+    line-height: 38px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* about us-right section */
+.exp-year span {
+    font-size: 170px;
+    line-height: 200px;
+    font-weight: 500;
+    color: #4c4d4d;
+    position: relative;
+
+}
+
+.exp-bg-round {
+    width: 120px;
+    height: 120px;
+    background: khaki;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+}
+
+/* This is about down section */
+.short-bio {
+    margin-top: 25px;
+    margin-bottom: 80px;
+
+}
+
+.exp-down .exp-name {
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 500;
+    color: #8e9a9d;
+}
+
+.exp-down .exp-det {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #212529;
+}
+
+.exp-down a:hover {
+    text-decoration: none;
+}
+
+/* This is about us section end */
+
+/* this is what i do start*/
+.what-i-do {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 65px;
+    background: #f1f2f3;
+}
+
+.what-do-box {
+    text-align: center;
+}
+
+.what-do-box i {
+    color: #eee8aa;
+}
+
+.what-do-box h3 {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+    color: #212529;
+    padding: 18px 0px;
+}
+
+.what-do-box p {
+    font-size: 17px;
+    line-height: 29px;
+    font-weight: 400;
+    color: #8e9a9d;
+    text-align: left;
+    text-align: center;
+}
+
+/* This is what i do end */
+
+/* This is a summary of my resume are start */
+.summary-card {
+    width: 100%;
+    height: 100%;
+    padding: 0px 45px;
+}
+
+.summary-box {
+    width: 100%;
+    height: auto;
+    margin: 15px 0px 05px 25px;
+    border-bottom: 1px solid #8e9a9d;
+}
+
+.summary-head h3 {
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 600;
+    color: #212529;
+}
+
+.summary-box h3 {
+    font-size: 22px;
+    line-height: 34px;
+    font-weight: 600;
+}
+
+.summary-box h5 {
+    font-size: 18px;
+    line-height: 14px;
+    font-weight: 500;
+    padding: 8px 0px;
+}
+
+.summary-box p {
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 400;
+    color: #8e9a9d;
+    padding-bottom: 15px;
+}
+
+/* This is skills area section start */
+.summary-of-resume {
+    padding-bottom: 85px;
+}
+
+.my-skill-head h3 {
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 600;
+    padding: 25px 0px;
+}
+
+.skills-box-name span {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #212529;
+}
+
+.skills-box {
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+    padding: 0px 20px;
+}
+
+.skills-box-percent {
+    width: 100%;
+    height: 9px;
+    background: #e9ecef;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.skills-box .web,
+.script,
+.ajax,
+.html-css,
+.react-js,
+.bootstrap {
+    height: 9px;
+    border-radius: 5px;
+    background: khaki;
+}
+
+.skills-box .web {
+    width: 65%;
+}
+
+.skills-box .script {
+    width: 80%;
+}
+
+.skills-box .ajax {
+    width: 60%;
+}
+
+.skills-box .html-css {
+    width: 95%;
+}
+
+.skills-box .react-js {
+    width: 70%;
+}
+
+.skills-box .bootstrap {
+    width: 99%;
+}
+
+/* This is cv btn area start */
+.cv-btn {
+    margin-top: 85px;
+}
+
+.cv-btn a {
+    width: 160px;
+    text-decoration: none;
+    color: #212529;
+    text-align: center;
+    padding: 12px 25px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.cv-btn a:hover {
+    background: #000;
+    color: #fff;
+    transition: all 0.3s ease-in;
+}
+
+/* This is a summary of my resume are end */
+
+/* This is portfolio area section start */
+.portfolio {
+    padding-bottom: 85px;
+    background: #e9ecef;
+}
+
+.port-row2 {
+    margin-top: -20px;
+}
+
+/* portfolio btn area */
+.portfolio-btn {
+    text-align: center;
+
+}
+
+.portfolio-btn a {
+    text-decoration: none;
+    padding: 0px 15px;
+    color: #4c4d4d;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.portfolio-box {
+
+    position: relative;
+}
+
+.portfolio-img {
+    /* width: 345px;
+    height: 370px; */
+
+    width: 100%;
+    height: 100%;
+    padding: 0px 18px;
+
+}
+
+.portfolio-img img {
+    width: 100%;
+    height: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: cover;
+    cursor: pointer;
+    object-fit: cover;
+
+
+}
+
+
+
+.portfolio-overlay {
+    position: absolute;
+    top: 0;
+    left: 18px;
+    color: #fff;
+    /* width: 338px;
+    height: 360px; */
+    width: 91%;
+    height: 100%;
+    opacity: .7;
+    visibility: hidden;
+    opacity: 0;
+    margin-bottom: auto;
+    background-color: rgba(0, 0, 0, .7);
+    transition: all .3s ease-in-out;
+
+
+}
+
+.overtaly-det {
+    margin-top: 35%;
+    text-align: center;
+}
+
+.portfolio-overlay i {
+    color: #eee8aa;
+}
+
+.portfolio-overlay h3 {
+    font-size: 28px;
+    line-height: 24px;
+    font-weight: 600;
+    padding: 12px 0px;
+}
+
+.portfolio-overlay p {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 500;
+}
+
+.portfolio-box:hover {
+    .portfolio-overlay {
+        visibility: visible;
+        opacity: 1;
+        cursor: pointer;
+    }
+}
+
+
+/* This is portfolio area section end */
+
+/* This is work with me area section start */
+.work-wth-me {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    scroll-behavior: smooth;
+    background-image: url(./gallery/intro-bg-2.jpg);
+}
+
+.work-wth-me::before {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 450px;
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;
+}
+
+.work-with-det {
+    position: relative;
+    color: #e9ecef;
+    margin-top: 14%;
+}
+
+.work-with-det h1 {
+    font-size: 55px;
+    line-height: 34px;
+    font-weight: 500;
+}
+
+.work-with-det a {
+    margin-top: 45px;
+    text-decoration: none;
+    width: 160px;
+    padding: 16px 35px;
+    text-align: center;
+    color: #4c4d4d;
+    background: #eee8aa;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.work-with-det a:hover {
+    background: khaki;
+}
+
+/* This is work with me area section end */
+
+
+/* This is faq section area start */
+.faq-section{
+    padding-bottom: 85px;
+}
+.faq-content {
+    width: 100%;
+    height: auto;
+}
+
+.faq-det-items {
+    padding: 30px 0px;
+}
+
+.faq-det-items-con {
+    padding: 15px 0px;
+    border-bottom: 0.01px solid rgba(0, 0, 0, 0.4);
+}
+
+.faq-l-side {
+    width: 50%;
+    height: auto;
+    overflow: -moz-hidden-unscrollable;
+    /* background-color: lightcoral; */
+}
+
+.faq-r-side {
+    width: 50%;
+    height: auto;
+    /* background-color: khaki; */
+}
+
+.faq-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.faq-btn button {
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #212529;
+    padding: 0px 8px;
+    cursor: pointer;
+
+
+}
+
+.faq-drop {
+    width: 100%;
+    height: auto;
+
+}
+
+.faq-btn h2 button {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.faq-drop {
+    display: none;
+}
+
+.faq-drop p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 400;
+    color: #212529;
+    padding: 20px 25px;
+
+}
+
+.faq-drop.active {
+    display: block;
+}
+
+.faq-img {
+    width: 100%;
+    height: 100%;
+}
+
+.faq-img img {
+    width: 400px;
+    height: auto;
+    margin-left: 45px;
+
+
+}
+
+/* This is faq section area end */
+
+/* This is get is touch area start */
+.custom-get-in-touch {
+    padding-bottom: 125px;
+    position: relative;
+    background: lightblue;
+    /* background-color: lightseagreen; */
+}
+
+.get-in-touch-head h1 {
+    margin-bottom: 40px;
+}
+
+.custom-get-touch-section {
+    padding-top: 80px;
+}
+
+.get-in-touch-text p {
+    font-size: 21px;
+    line-height: 34px;
+    font-weight: 400;
+    color: #212529;
+    width: 90%;
+}
+
+.custom-socials-meida {
+    font-size: 25px;
+    line-height: 34px;
+    padding: 15px 5px;
+    cursor: pointer;
+}
+
+.custom-socials-meida:hover {
+    color: blue;
+}
+
+.input-content input,
+textarea {
+    border: none;
+    outline: none;
+    background: lightblue;
+    border-bottom: 1px solid black;
+}
+
+.send-btn {
+    margin-top: 25px;
+}
+
+.send-btn a {
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    padding-top: 15px;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+/* This is get is touch area end */
+
+/* This is footer are start */
+.footer-area {
+    width: 100%;
+    height: 160px;
+    background-color: rgb(24, 21, 21);
+}
+
+.custom-footer {
+    padding-top: 70px;
+}
+
+.custom-footer p,
+a {
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.custom-footer a {
+    padding: 0px 5px;
+    color: rgb(179, 179, 14);
+}
+
+.custom-footer a:hover {
+    text-decoration: none;
+    color: rgb(180, 180, 15);
+}
+
+
+/* This is footer are end */

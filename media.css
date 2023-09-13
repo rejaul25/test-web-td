@@ -1,0 +1,344 @@
+@media only screen and (min-width: 200px) and (max-width: 992px) {
+
+    .hero-left h3 {
+        font-size: 32px;
+    }
+
+    .dynamic-text-con span {
+        font-size: 70px;
+    }
+
+    .hero-right img {
+        width: 320px;
+        height: 320px;
+
+    }
+
+    /* This is about us area */
+
+    .about-left p {
+        font-size: 18px;
+    }
+
+
+    /* this is portfolio area */
+    .portfolio-overlay {
+        width: 88%;
+    }
+
+    /* This is faq area */
+    .faq-img img {
+        width: 300px;
+    }
+
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 768px) {
+
+    .hero-left {
+        margin-top: 130px;
+    }
+
+    .hero-left h3 {
+        font-size: 26px;
+    }
+
+    .dynamic-text-con {
+        width: 100%;
+        height: 135px;
+        margin-top: -25px;
+    }
+
+    .dynamic-text-con span {
+        font-size: 50px;
+    }
+
+    .hero-left address {
+        font-size: 15px;
+    }
+
+    .hero-left .view-btn {
+        width: 125px;
+        padding: 15px 20px;
+    }
+
+    .hero-left .contact-me {
+        font-size: 16px;
+    }
+
+    .hero-right img {
+        width: 280px;
+        height: 280px;
+
+    }
+
+    /* This is about me area */
+    .section-head {
+        margin-top: -65px;
+    }
+
+    .section-head h1 {
+        font-size: 35px;
+    }
+
+    .about-left h3 {
+        font-size: 22px;
+    }
+
+    .about-left h3 span {
+        font-size: 28px;
+    }
+
+    .about-left p {
+        width: 80%;
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .exp-year span {
+        font-size: 125px;
+        line-height: 205px;
+    }
+
+    .about-right h3 {
+        font-size: 14px;
+    }
+
+    .exp-down {
+        display: flex;
+
+    }
+
+    .exp-down .exp-name {
+        width: 140px;
+    }
+
+    .exp-down .exp-det {
+        margin-left: 45px;
+    }
+
+    /* This is what i do box */
+    .what-do-box {
+        width: 500px;
+        margin-left: 15%;
+        margin-bottom: 45px;
+    }
+
+    /* This is a summary of my reume area */
+    .summary-card {
+        width: 100%;
+        height: 100%;
+        padding: 0px 30px;
+    }
+
+    .summary-head h3 {
+        font-size: 24px;
+    }
+
+    .summary-box h3 {
+        font-size: 18px;
+    }
+
+    .summary-box h5 {
+        font-size: 15px;
+    }
+
+    .summary-box p {
+        font-size: 14px;
+    }
+
+    .skills-box {
+        width: 350px;
+        height: auto;
+        margin-top: 25px;
+        padding: 0px 20px;
+    }
+
+    .skills-box span {
+        font-size: 15px
+    }
+
+    /* This is porfolio area start */
+    .portfolio-overlay {
+        width: 85%;
+    }
+
+    .overtaly-det {
+        margin-top: 52px;
+    }
+
+    .overtaly-det i {
+        font-size: 20px;
+    }
+
+    .overtaly-det h3 {
+        font-size: 20px;
+    }
+
+    .overtaly-det p {
+        margin-top: -15px;
+        font-size: 15px;
+    }
+
+    /* this is work with me area */
+    .work-with-det {
+        margin-top: 165px;
+    }
+
+    .work-with-det h1 {
+        font-size: 45px;
+    }
+
+    /* This is faq section area start */
+    .faq-img img {
+        width: 250px;
+    }
+
+    /* This is get is touch area start */
+
+    .custom-get-touch-section p {
+        font-size: 18px;
+    }
+
+    /* this is footer area start */
+    .footer-area {
+        height: 120px;
+    }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 472px) {
+
+    /* This is menubar and hero area */
+    .hero-and-menubar {
+        height: 720px;
+        background: khaki;
+    }
+
+    .hero-content,
+    .skills-bar,
+    .summary,
+    .about-us {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-right img {
+        width: 220px;
+        height: 220px;
+
+    }
+
+    /* This is about us area */
+    .section-head h1 {
+        font-size: 24px;
+    }
+
+    .about-left {
+        margin-left: 50px;
+    }
+
+    .about-left p {
+        width: 90%;
+    }
+
+    .about-right {
+        margin-bottom: 45px;
+    }
+
+    .short-bio {
+        margin-left: 25px;
+    }
+
+    /* This is what i do section area  */
+    .what-do-box {
+        width: 320px;
+    }
+
+    .what-do-box h3 {
+        font-size: 18px;
+    }
+
+    /* This is a summary of my resume */
+
+    .summary-box {
+        width: 350px;
+        padding: 8px 0px;
+    }
+
+    .custom-summary-media {
+        margin-top: 40px;
+    }
+
+    .my-skill-head {
+        margin-left: 20px;
+    }
+
+    /* This is porfolio area start */
+    .portfolio-btn a {
+        font-size: 14px;
+        padding: 0px 5px;
+    }
+
+    .portfolio-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .portfolio-img {
+        width: 380px;
+        height: 400px;
+    }
+
+    .portfolio-overlay {
+        width: 90.5%;
+        height: 370px;
+    }
+
+    .overtaly-det {
+        margin-top: 35%;
+    }
+
+    .overtaly-det i {
+        font-size: 35px;
+    }
+
+    .overtaly-det h3 {
+        font-size: 28px;
+        padding: 18px 0px;
+    }
+
+    .overtaly-det p {
+        font-size: 18px;
+    }
+
+    /* This is working with me */
+    .work-with-det h1{
+        font-size: 28px;
+    }
+
+    /* This is faq section start */
+    .faq-content{
+        width: 450px;
+        padding: 0px 25px;
+    }
+    .faq-det-items-con{
+        width: 100%;
+    }
+    .faq-img{
+        display: none;
+    }
+
+    /* This is footer area start */
+    .custom-footer p{
+     font-size: 10px;
+    }
+    .custom-footer p a{
+     font-size: 12px;
+    }
+
+}
